@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suresh Enterprises - Kings Bazaar Details</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 25px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
+        }
+        header h1 {
+            color: #d9534f;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            font-size: 16px;
+            font-weight: bold;
+            color: #0275d8;
+            margin-top: 5px;
+        }
+        .contact-info a {
+            color: #28a745;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        /* Navigation Tabs */
+        .tabs {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .tab-btn {
+            background: #e9ecef;
+            border: none;
+            padding: 12px 20px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: 0.3s;
+            flex: 1;
+            min-width: 250px;
+            text-align: center;
+        }
+        .tab-btn.active, .tab-btn:hover {
+            background: #d9534f;
+            color: white;
+        }
+        /* Content Sections */
+        .tab-content {
+            display: none;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .box {
+            background: #f8f9fa;
+            border-left: 5px solid #d9534f;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            white-space: pre-line;
+            font-size: 15px;
+        }
+        .action-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 25px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            border-radius: 30px;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            text-align: center;
+            transition: 0.2s;
+        }
+        .whatsapp-btn {
+            background-color: #25D366;
+        }
+        .call-btn {
+            background-color: #007bff;
+        }
+        .btn:hover {
+            opacity: 0.9;
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #777;
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>👑 Suresh Enterprises - Kings Bazaar 💥🙌</h1>
+        <div class="contact-info">
+            WhatsApp: <a href="https://wa.me/917540032064" target="_blank">7540032064</a> | 
+            Call: <a href="tel:8124878352">8124878352</a>
+        </div>
+    </header>
+
+    <!-- Tab Buttons -->
+    <div class="tabs">
+        <button class="tab-btn active" onclick="openTab(event, 'tab1')">1. Kings Bazaar Overview & Plan</button>
+        <button class="tab-btn" onclick="openTab(event, 'tab2')">2. Income Packages & Features</button>
+        <button class="tab-btn" onclick="openTab(event, 'tab3')">3. Network & Direct Business Info</button>
+    </div>
+
+    <!-- Tab 1 Content -->
+    <div id="tab1" class="tab-content active">
+        <div class="box">
+1 Kings bazaar 💥🙌🔥
+Non working and working income plan  🔥
+All products 50% offer
+If you pay 5000 you can get 10000 worth products💥
+
+நிறுவனத்தின் பெயர் கிங்ஸ் பஜார் பெங்களூரில் ஹெட் ஆஃபீஸ் உள்ளது 100க்கும் மேற்பட்ட கிளைகள் உள்ளது அனைத்து பிராண்டட் ஐட்டங்களும் டிவி ஃப்ரிட்ஜ் வாஷிங் மெஷின் பர்னிச்சர் ஐட்டம் என எ டு இசட் ப்ராடக்டுகள் 50% தள்ளுபடி விலையில் கிடைக்கிறது. 
+
+இதில் நாம் இணைந்தால் வருமானம் கிடைக்கும் மற்றும் நாம் கடை தொடங்கினாலும் நல்ல வருமானம் ஈட்ட முடியும். மற்றும் ஆட்களை அறிமுகப்படுத்த வேண்டிய அவசியமில்லை. இந்த தொழிலை நமக்கு கிடைக்கும் அரை மணி நேரம் ஒரு மணி நேரத்தை பயன்படுத்தி நன்றாக வருமானம் பெற முடியும். வேலை செய்தாலும் வருமானம் வேலை செய்யாவிட்டாலும் வருமானம் கிடைக்கும்!
+
+மற்றும் இந்த நிறுவனம் 2 வருடங்களாக செயல்பட்டு கொண்டிருக்கிறது பல மாநிலங்களில் செயல்பட்டு வருகிறது 2,50,000 மேலாக மக்கள் இணைந்து வருகிறார்கள். ஜிஎஸ்டி மற்றும் டேக்ஸ் சரியாக பின்பற்றப்பட்டு வருகிறது மற்றும் கூகுள் பிளே ஸ்டோரில் அப்ளிகேஷனும் உள்ளது. (Working and non working income plan) [referral is not compulsory] யூடியூபில் கிங்ஸ் பஜார் என்று டைப் செய்து பாருங்கள் மற்றும் இதனுடைய முழு தகவல்களையும் தெரிந்து கொண்டு உங்களுக்கு பிடித்திருந்தால் என்னுடன் இணைந்து செயல்படுங்கள். என்னுடைய சப்போர்ட் உங்களுக்கு முழுமையாக கிடைக்கும்!
+        </div>
+    </div>
+
+    <!-- Tab 2 Content -->
+    <div id="tab2" class="tab-content">
+        <div class="box">
+💥Product selling non working (ROI) income 100% daily 1% (unlimited)
+💥Direct sponsor income 10% (unlimited)
+💥Binary income 10%
+💥Club income 1.78 crore
+💥Repurchase income 4% (unlimited)
+💥Self repurchase income 2% (unlimited)
+💥Awards and regards 1.53 crore
+💥All branded products 50% offer
+💥 Minimum joining package 2500 you can get 5000 worth products or cash back income
+💥150+ franchises all over India (products stores)
+💥More then 250000 joining members
+💥 Power side carry forward 
+💥40+ acre own land
+💥7 products hub (warehouse)
+💥Own transport vehicles 
+💥48+ vendorship codes
+🔥 👑 KINGS BAZAAR 💥🙌
+
+---
+
+<b>No reffral | No target | No products selling</b>
+Earn money daily from kings bazaar 💥🔥
+
+ஆட்களை சேர்க்கத் தேவையில்லை, பொருட்களை விற்க தேவையில்லை, எந்த ஒரு டார்கெட்டும் கிடையாது ஆனாலும் தினமும் நம்மால் வீட்டிலிருந்தே நமக்கு கிடைக்கும் அரை மணி நேரம் அல்லது ஒரு மணி நேரத்தை பயன்படுத்தி சுலபமாக கிங்ஸ் பஜாரில் தினமும் வருமானம் சம்பாதிக்க முடியும் அவ்வாறு தான் திட்டத்தை வடிவமைத்து உள்ளார்கள் 🔥👌💪💥
+        </div>
+    </div>
+
+    <!-- Tab 3 Content -->
+    <div id="tab3" class="tab-content">
+        <div class="box">
+அனைத்து நெட்வொர்க் மார்க்கெட்டிங் கம்பெனிகளிலும் நமக்கு உழைத்தால் தான் வருமானம் கிடைக்கும். Kings bazaar இங்கேயும் உழைத்தால் தான் வருமானம் கிடைக்கும் ஆனால் இங்கு சற்று வித்தியாசத்துடன் நமது உழைப்பு பகிரப்படுகிறது. நமக்கு அந்த ப்ராடக்ட் செல்லிங் ROI non working income, passive income எப்படி கொடுக்கப்படுகிறது என்று பல நபர்களுக்கு கேள்வியாக இருக்கும். 
+
+இது மற்ற நிறுவனங்களைப் போல இணையும் நபர்களிடம் பணம் வாங்கி மற்ற நபர்களுக்கு பிரித்துக் கொடுக்கும் நிறுவனம் அல்ல. நாம் இரண்டு வகையில் இணைய முடியும்:
+1. பொருட்களை வாங்கி இணைந்து கொள்ளலாம் (உதாரணத்திற்கு 2500க்கு 50% offerல் 5000 உண்டான பொருட்களை வாங்கி கொள்ளலாம்) 
+2. அல்லது ப்ராடக்ட் செல்லிங் ஆப்ஷனில் இணைந்து கொள்ளலாம்.
+
+product selling ஆப்ஷனில் இணைந்தால் இவர்களுக்கு 150 க்கு மேற்பட்ட கிளைகள் பல மாநிலங்களில் உள்ளது. நாம் கொடுக்கும் பணத்தை குறைவான விலையில் நேரடியாக தயாரிக்கும் இடத்திலேயே பொருட்களை வாங்கி அந்த பொருட்களை இவர்களுடைய ஸ்டோரில் விற்பனை செய்கிறார்கள். இதில் விளம்பரங்கள் மற்றும் இடைத்தரர்கள் இல்லை இதனால் நிறுவனத்துக்கு அதிக லாபம் கிடைக்கிறது. அந்த லாபத்தில் நாம் இதில் முதலீடு செய்ததால் நமக்கு சிறிது பிரித்துக் கொடுக்கிறார்கள்.
+
+உதாரணத்திற்கு ஷூ (shoe) 👟 நேரடியாக தயாரிக்கும் இடத்தில் இவர்கள் 100க்கு வாங்குகிறார்கள் அதை இவர்களுடைய ஸ்டோரில் 300 அல்லது 400க்கு விற்பனை செய்கிறார்கள். இதை போல் அனைத்து பொருட்களுக்கும் கற்பனை செய்து பாருங்கள் நிறுவனத்திற்கு லாபம் இருக்கிறது நமக்கும் லாபம் இருக்கிறது இதில் அனைவருக்கும் பயன் கிடைக்கிறது.
+
+<b>Suresh enterprises kings bazar details</b>
+        </div>
+    </div>
+
+    <!-- Contact Action Buttons -->
+    <div class="action-buttons">
+        <a href="https://wa.me/917540032064" class="btn whatsapp-btn" target="_blank">WhatsApp Chat</a>
+        <a href="tel:8124878352" class="btn call-btn">Call Now</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Suresh Enterprises - Kings Bazaar. All Rights Reserved.</p>
+    </footer>
+</div>
+
+<script>
+    function openTab(evt, tabName) {
+        let i, tabContent, tabBtns;
+        
+        tabContent = document.getElementsByClassName("tab-content");
+        for (i = 0; i < tabContent.length; i++) {
+            tabContent[i].style.display = "none";
+            tabContent[i].classList.remove("active");
+        }
+        
+        tabBtns = document.getElementsByClassName("tab-btn");
+        for (i = 0; i < tabBtns.length; i++) {
+            tabBtns[i].classList.remove("active");
+        }
+        
+        document.getElementById(tabName).style.display = "block";
+        document.getElementById(tabName).classList.add("active");
+        evt.currentTarget.classList.add("active");
+    }
+</script>
+
+</body>
+</html>
