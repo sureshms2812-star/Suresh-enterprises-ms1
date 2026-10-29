@@ -216,10 +216,15 @@ product selling ஆப்ஷனில் இணைந்தால் இவர�
         <a href="tel:8124878352" class="btn call-btn">Call Now</a>
     </div>
 
-    <footer>
-        <p>&copy; 2026 Suresh Enterprises - Kings Bazaar. All Rights Reserved.</p>
+        <footer>
+        <p>&copy; <span id="current-year"></span> Suresh Enterprises - Kings Bazaar. All Rights Reserved.</p>
     </footer>
-</div>
+    </div>
+
+    <script>
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+
 
 <script>
     function openTab(evt, tabName) {
